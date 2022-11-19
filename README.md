@@ -57,6 +57,8 @@ If so, this would mean that even though there are a lot less paid reviews, those
 
 ### Recommended Further Analysis
 
-To determine if the Vine reviews should be weighted more or less than the Non-Vine reviews we could perform an additional analysis that takes the percentage of Vine vs. Non-Vine reviews that were helpful.
+To reduce bias, we could reduce the dataset of non-vine users to be equal to vine users and re-run the analysis to see if the percentage of 5 star reviews is closer.
+
+If there is still a significant difference we may want to determine if the Vine reviews should be weighted more or less than the Non-Vine reviews taking the percentage of Vine vs. Non-Vine reviews that were helpful.
 
 For example, if we found that 90% of Vine reviews were helpful but only 30% of Non-Vine reviews were helpful than it may pay to use the Vine reviews over the Non-Vine reviews when making decisions on whether to buy a product even if there are not nearly as many Vine reviews overall.
